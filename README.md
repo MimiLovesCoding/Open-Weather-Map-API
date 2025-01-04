@@ -7,3 +7,8 @@ Postman was utilized to validate the API endpoints from the weather app, ensurin
 
 <hr>
 
+![image](https://github.com/user-attachments/assets/474c5999-0b1e-4474-925b-92fe95889882)
+
+<hr>
+
+
