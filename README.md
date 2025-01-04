@@ -9,7 +9,8 @@ Postman was utilized to validate the API endpoints from the weather app, ensurin
 
 Test cases provide clear guidance and direction on what to verify and how to conduct the checks. Below is a snippet from the attached Excel spreadsheet.
 
-![image](https://github.com/user-attachments/assets/474c5999-0b1e-4474-925b-92fe95889882)
+![image](https://github.com/user-attachments/assets/a35de218-c312-46b6-9b30-51534ad2307f)
+
 
 <hr>
 
