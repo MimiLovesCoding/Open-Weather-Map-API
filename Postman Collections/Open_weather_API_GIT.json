@@ -1,0 +1,758 @@
+{
+	"info": {
+		"_postman_id": "98343817-6c20-4daf-8e6c-6dc4f4986742",
+		"name": "Weather API calls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EXISTING CITY CALL 1",
+			"id": "13969eb4-3e4c-4d61-88cd-10a2ccb59ea3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=Atlanta&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Atlanta"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EXISTING CITY CALL 2",
+			"id": "176331bc-3e95-47c0-b764-8dc074167388",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=new york,US&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "new york,US"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CITY UNITS=STANDARD or Kelvin",
+			"id": "7ba7cdfd-a980-4da4-854f-00847138cef5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=51.511501&lon=-0.20587&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "51.511501"
+						},
+						{
+							"key": "lon",
+							"value": "-0.20587"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CITY UNITS=METRIC or Celcius",
+			"id": "5a0b090b-59b8-4de6-8cf6-2443be057d08",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=33.583328&lon=130.833328&appid={{API key}}&units=metric",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "33.583328"
+						},
+						{
+							"key": "lon",
+							"value": "130.833328"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CITY UNITS=IMPERIAL or Fahrenheit",
+			"id": "75919a30-cb5d-40d9-bf7a-bfef731000fd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=39.333328&appid={{API key}}&units=imperial&lon=26.183331",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "39.333328"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						},
+						{
+							"key": "units",
+							"value": "imperial"
+						},
+						{
+							"key": "lon",
+							"value": "26.183331",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CITY with lang=fr(french)",
+			"id": "a8ca682e-0e97-40ee-b057-b5fa573f3440",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?id=2755003&lang=fr&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2755003"
+						},
+						{
+							"key": "lang",
+							"value": "fr"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NEGATIVE test city id = 0",
+			"id": "7ea009d4-38df-4e9b-ba52-b5cc8fca1567",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?id=0&lang=ja&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "0"
+						},
+						{
+							"key": "lang",
+							"value": "ja"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NEGATIVE test city id invalid",
+			"id": "d65e03e2-633d-4010-8527-9c446919d10d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?id=26390&lang=de&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "26390"
+						},
+						{
+							"key": "lang",
+							"value": "de"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NEGATIVE test no city id",
+			"id": "a6966cf7-6730-4fde-9864-0dacb07dfac3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?id=&lang=pt_br&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": ""
+						},
+						{
+							"key": "lang",
+							"value": "pt_br"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NEGATIVE test invalid appid",
+			"id": "f8c90e97-8599-4818-bcde-8001f4346044",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761a",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?id=2519952&lang=fr&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2519952"
+						},
+						{
+							"key": "lang",
+							"value": "fr"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NEGATIVE test no appid",
+			"id": "4a3a9c52-44a9-4708-85e7-749d56503c24",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?id=2519952&lang=fr&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2519952"
+						},
+						{
+							"key": "lang",
+							"value": "fr"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT call",
+			"id": "fd3717bf-d5fd-4dc8-930d-fa3d3b4946ff",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"coordinates\": {\n        \"lon\": 37.6156,\n        \"lat\": 55.7522\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?id=524901&lang=fr&appid={{{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "524901"
+						},
+						{
+							"key": "lang",
+							"value": "fr"
+						},
+						{
+							"key": "appid",
+							"value": "{{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE call",
+			"id": "3008408e-ce35-4268-b3a5-9118ec20d69c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"coord\": {\n        \"lon\": -84.388,\n        \"lat\": 33.749\n    },\n    \"weather\": [\n        {\n            \"id\": 800,\n            \"main\": \"Clear\",\n            \"description\": \"clear sky\",\n            \"icon\": \"01d\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 284.02,\n        \"feels_like\": 282.1,\n        \"temp_min\": 282.59,\n        \"temp_max\": 284.76,\n        \"pressure\": 1023,\n        \"humidity\": 36,\n        \"sea_level\": 1023,\n        \"grnd_level\": 988\n    },\n    \"visibility\": 10000,\n    \"wind\": {\n        \"speed\": 9.77,\n        \"deg\": 290,\n        \"gust\": 17.49\n    },\n    \"clouds\": {\n        \"all\": 0\n    },\n    \"dt\": 1735939215,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2006620,\n        \"country\": \"US\",\n        \"sunrise\": 1735908161,\n        \"sunset\": 1735944080\n    },\n    \"timezone\": -18000,\n    \"id\": 4180439,\n    \"name\": \"Atlanta\",\n    \"cod\": 200\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=Atlanta&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Atlanta"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH call",
+			"id": "b981ef4c-0918-4226-b5ab-d804dbe8d12a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"coord\": {\n    \"lon\": 10.18,\n    \"lat\": 41.21\n  },\n  \"weather\": [\n    {\n      \"id\": 501,\n      \"main\": \"sun\",\n      \"description\": \"sunny\",\n      \"icon\": \"10d\"\n    }\n  ],\n  \"base\": \"stations\",\n  \"main\": {\n    \"temp\": 298.48,\n    \"feels_like\": 298.74,\n    \"temp_min\": 297.56,\n    \"temp_max\": 300.05,\n    \"pressure\": 1015,\n    \"humidity\": 64,\n    \"sea_level\": 1015,\n    \"grnd_level\": 933\n  },\n  \"visibility\": 10000,\n  \"wind\": {\n    \"speed\": 0.62,\n    \"deg\": 349,\n    \"gust\": 1.18\n  },\n  \"rain\": {\n    \"1h\": 3.16\n  },\n  \"clouds\": {\n    \"all\": 100\n  },\n  \"dt\": 1661870592,\n  \"sys\": {\n    \"type\": 2,\n    \"id\": 2075663,\n    \"country\": \"USA\",\n    \"sunrise\": 1661834187,\n    \"sunset\": 1661882248\n  },\n  \"timezone\": 7200,\n  \"id\": 3163858,\n  \"name\": \"Any City\",\n  \"cod\": 200\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "44.34"
+						},
+						{
+							"key": "lon",
+							"value": "10.99"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST call",
+			"id": "7b13b052-7c2d-4e27-9d78-d51628dc6536",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {
+						"value": "069a7611dc3fb92e0fed25f33c41761b",
+						"key": "appid",
+						"in": "query"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n  {\n    \"_id\": \"67795cffe7f88e8dd3f655ab\",\n    \"index\": 0,\n    \"guid\": \"17deb22b-3f38-4c72-827c-e91f4dccf482\",\n    \"isActive\": false,\n    \"balance\": \"$2,029.17\",\n    \"picture\": \"http://placehold.it/32x32\",\n    \"age\": 36,\n    \"eyeColor\": \"green\",\n    \"name\": \"Rosalie Robbins\",\n    \"gender\": \"female\",\n    \"company\": \"OHMNET\",\n    \"email\": \"rosalierobbins@ohmnet.com\",\n    \"phone\": \"+1 (930) 573-2069\",\n    \"address\": \"675 Blake Court, Retsof, Guam, 6277\",\n    \"about\": \"Elit velit dolore do velit dolor esse duis mollit magna et excepteur ut occaecat. Exercitation eu esse aliqua nisi officia cillum fugiat tempor nostrud. Eu elit ullamco pariatur fugiat qui reprehenderit do laboris cupidatat officia anim est tempor officia. Pariatur elit aliqua eiusmod proident minim nostrud.\\r\\n\",\n    \"registered\": \"2020-05-29T05:23:16 +04:00\",\n    \"latitude\": 61.164943,\n    \"longitude\": -162.572024,\n    \"tags\": [\n      \"mollit\",\n      \"laboris\",\n      \"non\",\n      \"adipisicing\",\n      \"irure\",\n      \"ut\",\n      \"duis\"\n    ],\n    \"friends\": [\n      {\n        \"id\": 0,\n        \"name\": \"Hillary Battle\"\n      },\n      {\n        \"id\": 1,\n        \"name\": \"Valarie Mann\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Frye Valenzuela\"\n      }\n    ],\n    \"greeting\": \"Hello, Rosalie Robbins! You have 4 unread messages.\",\n    \"favoriteFruit\": \"banana\"\n  },\n  {\n    \"_id\": \"67795cff16f2ce964924d06e\",\n    \"index\": 1,\n    \"guid\": \"59eb4853-5900-4372-af4f-1c4a49c9e62e\",\n    \"isActive\": true,\n    \"balance\": \"$1,346.20\",\n    \"picture\": \"http://placehold.it/32x32\",\n    \"age\": 32,\n    \"eyeColor\": \"brown\",\n    \"name\": \"Powell Larson\",\n    \"gender\": \"male\",\n    \"company\": \"AUSTEX\",\n    \"email\": \"powelllarson@austex.com\",\n    \"phone\": \"+1 (804) 422-2121\",\n    \"address\": \"966 Schenck Court, Stollings, Florida, 7080\",\n    \"about\": \"Nulla exercitation non deserunt nisi et. Aute qui duis commodo veniam eiusmod culpa ad adipisicing eiusmod magna. Cupidatat ipsum in elit anim aute deserunt quis est mollit est laboris velit dolor.\\r\\n\",\n    \"registered\": \"2016-06-16T01:20:04 +04:00\",\n    \"latitude\": 28.530393,\n    \"longitude\": 89.587205,\n    \"tags\": [\n      \"et\",\n      \"nulla\",\n      \"cupidatat\",\n      \"aute\",\n      \"eiusmod\",\n      \"magna\",\n      \"excepteur\"\n    ],\n    \"friends\": [\n      {\n        \"id\": 0,\n        \"name\": \"Marianne Wise\"\n      },\n      {\n        \"id\": 1,\n        \"name\": \"Ferrell Zamora\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Mccray Sutton\"\n      }\n    ],\n    \"greeting\": \"Hello, Powell Larson! You have 1 unread messages.\",\n    \"favoriteFruit\": \"banana\"\n  },\n  {\n    \"_id\": \"67795cfff34a5f3fe629c31c\",\n    \"index\": 2,\n    \"guid\": \"5a94c209-8b42-43ce-953f-97882617a1c0\",\n    \"isActive\": false,\n    \"balance\": \"$2,142.85\",\n    \"picture\": \"http://placehold.it/32x32\",\n    \"age\": 28,\n    \"eyeColor\": \"green\",\n    \"name\": \"Maribel Finley\",\n    \"gender\": \"female\",\n    \"company\": \"SEQUITUR\",\n    \"email\": \"maribelfinley@sequitur.com\",\n    \"phone\": \"+1 (979) 488-3857\",\n    \"address\": \"428 Leonora Court, Crisman, Delaware, 2907\",\n    \"about\": \"Voluptate anim in adipisicing do Lorem anim commodo voluptate. Magna consectetur sit esse est ipsum pariatur aute dolor consectetur. Id eu deserunt ex sunt ea eiusmod labore. Voluptate cillum exercitation minim laboris ad cupidatat nisi do exercitation. Quis Lorem occaecat eiusmod aliquip occaecat eiusmod est adipisicing deserunt nisi Lorem. Occaecat excepteur duis elit elit est do minim. Irure ea labore sint irure nisi ullamco voluptate nostrud.\\r\\n\",\n    \"registered\": \"2020-02-12T07:55:46 +05:00\",\n    \"latitude\": -20.686563,\n    \"longitude\": -13.460973,\n    \"tags\": [\n      \"pariatur\",\n      \"qui\",\n      \"cillum\",\n      \"adipisicing\",\n      \"laborum\",\n      \"tempor\",\n      \"adipisicing\"\n    ],\n    \"friends\": [\n      {\n        \"id\": 0,\n        \"name\": \"Burch Flynn\"\n      },\n      {\n        \"id\": 1,\n        \"name\": \"Jane Wilder\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Cherry Wheeler\"\n      }\n    ],\n    \"greeting\": \"Hello, Maribel Finley! You have 3 unread messages.\",\n    \"favoriteFruit\": \"banana\"\n  },\n  {\n    \"_id\": \"67795cff059b4f54cb304c0a\",\n    \"index\": 3,\n    \"guid\": \"31ee5036-baf4-46c3-ac2e-92c96cca2113\",\n    \"isActive\": false,\n    \"balance\": \"$3,470.78\",\n    \"picture\": \"http://placehold.it/32x32\",\n    \"age\": 21,\n    \"eyeColor\": \"brown\",\n    \"name\": \"Delaney Cain\",\n    \"gender\": \"male\",\n    \"company\": \"MENBRAIN\",\n    \"email\": \"delaneycain@menbrain.com\",\n    \"phone\": \"+1 (995) 402-3462\",\n    \"address\": \"626 Garland Court, Grill, Georgia, 5992\",\n    \"about\": \"Duis veniam exercitation excepteur minim ex et fugiat laborum ipsum nulla ipsum. Dolore enim reprehenderit enim incididunt eu voluptate consequat sint commodo esse. Laboris tempor eiusmod laboris fugiat. Cillum excepteur ex nisi in deserunt sunt consequat laboris proident ad exercitation in consequat voluptate.\\r\\n\",\n    \"registered\": \"2020-10-31T10:19:32 +04:00\",\n    \"latitude\": 60.988556,\n    \"longitude\": -139.191743,\n    \"tags\": [\n      \"voluptate\",\n      \"eu\",\n      \"eiusmod\",\n      \"nisi\",\n      \"consectetur\",\n      \"esse\",\n      \"ut\"\n    ],\n    \"friends\": [\n      {\n        \"id\": 0,\n        \"name\": \"Stanley Robles\"\n      },\n      {\n        \"id\": 1,\n        \"name\": \"Kate Bean\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Barnes Snider\"\n      }\n    ],\n    \"greeting\": \"Hello, Delaney Cain! You have 8 unread messages.\",\n    \"favoriteFruit\": \"apple\"\n  },\n  {\n    \"_id\": \"67795cff5dbf3cc1762d8fdd\",\n    \"index\": 4,\n    \"guid\": \"efd1bf60-2077-4c8b-8738-ca25bbfe1065\",\n    \"isActive\": true,\n    \"balance\": \"$2,628.18\",\n    \"picture\": \"http://placehold.it/32x32\",\n    \"age\": 31,\n    \"eyeColor\": \"brown\",\n    \"name\": \"Valeria Pruitt\",\n    \"gender\": \"female\",\n    \"company\": \"NSPIRE\",\n    \"email\": \"valeriapruitt@nspire.com\",\n    \"phone\": \"+1 (850) 475-3552\",\n    \"address\": \"585 Cranberry Street, Fredericktown, Oregon, 2496\",\n    \"about\": \"Adipisicing velit velit fugiat nostrud quis consequat duis sint est incididunt esse qui amet ipsum. Pariatur dolor laboris deserunt voluptate laboris minim aliquip eiusmod non. Mollit cillum occaecat magna commodo elit est consequat voluptate ipsum tempor ullamco. Sunt ut pariatur irure id proident in.\\r\\n\",\n    \"registered\": \"2020-05-13T06:59:32 +04:00\",\n    \"latitude\": -3.646351,\n    \"longitude\": -63.001755,\n    \"tags\": [\n      \"officia\",\n      \"adipisicing\",\n      \"duis\",\n      \"cillum\",\n      \"ipsum\",\n      \"velit\",\n      \"sit\"\n    ],\n    \"friends\": [\n      {\n        \"id\": 0,\n        \"name\": \"Miranda Conner\"\n      },\n      {\n        \"id\": 1,\n        \"name\": \"Dawn Baxter\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Leanne Lawrence\"\n      }\n    ],\n    \"greeting\": \"Hello, Valeria Pruitt! You have 5 unread messages.\",\n    \"favoriteFruit\": \"apple\"\n  },\n  {\n    \"_id\": \"67795cffc3dd7d8b41f3cc20\",\n    \"index\": 5,\n    \"guid\": \"97f9b767-4b6a-4492-8163-64b08c5c4e57\",\n    \"isActive\": false,\n    \"balance\": \"$2,835.18\",\n    \"picture\": \"http://placehold.it/32x32\",\n    \"age\": 20,\n    \"eyeColor\": \"brown\",\n    \"name\": \"Kerri Baker\",\n    \"gender\": \"female\",\n    \"company\": \"KEENGEN\",\n    \"email\": \"kerribaker@keengen.com\",\n    \"phone\": \"+1 (852) 404-3494\",\n    \"address\": \"545 Stewart Street, Carbonville, Indiana, 3680\",\n    \"about\": \"Ullamco nisi qui Lorem adipisicing consectetur non commodo proident laboris tempor sit nulla incididunt. Dolor non reprehenderit sunt tempor nisi quis minim irure officia. Magna nisi eiusmod tempor velit tempor. Deserunt minim consectetur adipisicing laborum. Do ad laborum eiusmod sit nulla sit Lorem. Aliquip ea velit labore commodo consequat voluptate. Tempor pariatur laboris velit ex tempor sit excepteur in magna nisi adipisicing id adipisicing.\\r\\n\",\n    \"registered\": \"2021-08-25T02:38:58 +04:00\",\n    \"latitude\": -53.109295,\n    \"longitude\": -2.767998,\n    \"tags\": [\n      \"cupidatat\",\n      \"veniam\",\n      \"tempor\",\n      \"voluptate\",\n      \"nisi\",\n      \"nisi\",\n      \"ex\"\n    ],\n    \"friends\": [\n      {\n        \"id\": 0,\n        \"name\": \"Marquez Mcdaniel\"\n      },\n      {\n        \"id\": 1,\n        \"name\": \"Snider Blair\"\n      },\n      {\n        \"id\": 2,\n        \"name\": \"Berta Whitehead\"\n      }\n    ],\n    \"greeting\": \"Hello, Kerri Baker! You have 7 unread messages.\",\n    \"favoriteFruit\": \"banana\"\n  }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=new york,US&appid={{API key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "new york,US"
+						},
+						{
+							"key": "appid",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
