@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 26.1833,
+        "lat": 39.3333
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 58.37,
+        "feels_like": 57.49,
+        "temp_min": 58.37,
+        "temp_max": 58.37,
+        "pressure": 1016,
+        "humidity": 76,
+        "sea_level": 1016,
+        "grnd_level": 994
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.99,
+        "deg": 223,
+        "gust": 8.01
+    },
+    "clouds": {
+        "all": 53
+    },
+    "dt": 1736544272,
+    "sys": {
+        "type": 2,
+        "id": 2073696,
+        "country": "GR",
+        "sunrise": 1736487287,
+        "sunset": 1736521822
+    },
+    "timezone": 7200,
+    "id": 255439,
+    "name": "Petras",
+    "cod": 200
+}
