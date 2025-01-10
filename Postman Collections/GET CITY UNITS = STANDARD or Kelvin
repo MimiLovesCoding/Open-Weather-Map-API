@@ -1,0 +1,45 @@
+{
+    "coord": {
+        "lon": -0.2059,
+        "lat": 51.5115
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 272,
+        "feels_like": 272,
+        "temp_min": 270.33,
+        "temp_max": 273.22,
+        "pressure": 1023,
+        "humidity": 91,
+        "sea_level": 1023,
+        "grnd_level": 1018
+    },
+    "visibility": 9000,
+    "wind": {
+        "speed": 1.03,
+        "deg": 0
+    },
+    "clouds": {
+        "all": 5
+    },
+    "dt": 1736543798,
+    "sys": {
+        "type": 2,
+        "id": 268730,
+        "country": "GB",
+        "sunrise": 1736496193,
+        "sunset": 1736525586
+    },
+    "timezone": 0,
+    "id": 2641168,
+    "name": "Notting Hill",
+    "cod": 200
+}
