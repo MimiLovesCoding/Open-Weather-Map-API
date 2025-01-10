@@ -1,0 +1,6 @@
+https://api.openweathermap.org/data/2.5/weather?id=0&lang=ja&appid={{API key}}
+
+{
+    "cod": "400",
+    "message": "Invalid ID"
+}
