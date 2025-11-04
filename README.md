@@ -16,7 +16,7 @@ Postman was utilized to validate the API endpoints from the weather app, ensurin
 
 🚀 Postman API documentation link for the weather test calls. Note that the body and headers have been omitted for security reasons.
 
-TEMPORARY API KEY: 069a7611dc3fb92e0fed25f33c41761b
+API DOCUMENTATION:
 <br>
 https://documenter.getpostman.com/view/31215339/2sAYJ9AJ9v
 
