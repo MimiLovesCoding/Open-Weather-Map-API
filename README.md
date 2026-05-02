@@ -42,12 +42,12 @@ Each API response was checked against expected values for:
 GET https://api.openweathermap.org/data/2.5/weather<br>
 
 #### Query Parameters
-| Parameter | Description |Example |
+| Parameter | Description | Data |
 | :---:     | :---:  |  :---: |
 | q  |  City Name | Atlanta |
 | id | City Id  | 45356677|
 | units |   Temperature unit  | imperial (°F), metric (°C) | 
-| app id | |
+| appid | API key (required) | {SECURE_API_KEY}
 
 
 
