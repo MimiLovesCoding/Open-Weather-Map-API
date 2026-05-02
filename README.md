@@ -5,7 +5,7 @@
 A full-cycle API validation project using Postman and the OpenWeatherMap API, covering functional testing, negative/edge case testing, response validation, and structured test case documentation.
 
 🔐 API keys, request headers, and body parameters have been omitted from all documentation for security purposes.
-[ GitHub](https://github.com)
+
 <hr>
 
 ##  📋 Project Overview <br>
@@ -16,7 +16,7 @@ The API was confirmed to be robust, well-designed, and compliant with expected s
 ## 🛠 Tools & Technologies <br>
 | Tools | Purpose |
 | :---: | :---: |
-| Postman | API client for building, executing, and documenting test calls |
+| [ Postman](https://postman.com) | API client for building, executing, and documenting test calls |
 |OpenWeatherMap API | Third-party REST API providing real-time global weather data |
 | Microsoft Excel |Structured test case management and results tracking |
 | JSON | API response format validated across <br>
