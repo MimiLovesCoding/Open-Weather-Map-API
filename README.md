@@ -44,7 +44,8 @@ GET https://api.openweathermap.org/data/2.5/weather<br>
 #### Query Parameters
 | Parameter | Description |Example |
 | :---:     | :---:  |  :---: |
-| q  |  City Name | Atlanta
+| q  |  City Name | Atlanta |
+| id | City Id  | 45356677|
 
 
 
