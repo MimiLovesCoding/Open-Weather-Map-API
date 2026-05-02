@@ -46,6 +46,8 @@ GET https://api.openweathermap.org/data/2.5/weather<br>
 | :---:     | :---:  |  :---: |
 | q  |  City Name | Atlanta |
 | id | City Id  | 45356677|
+| units |   Temperature unit  | imperial (°F), metric (°C) | 
+| app id | |
 
 
 
