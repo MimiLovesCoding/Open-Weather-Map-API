@@ -1,4 +1,4 @@
-# ⛅ 🌈 Open-Weather-Map-API — Comprehensive API Test Suite☀️ ☔
+ ⛅ 🌈 Open-Weather-Map-API — Comprehensive API Test Suite☀️ ☔
 
 <hr>
 
