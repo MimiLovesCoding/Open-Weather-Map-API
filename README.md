@@ -26,10 +26,10 @@ The API was confirmed to be robust, well-designed, and compliant with expected s
 ### Functional Testing (Positive Cases)<br>
 Verified that valid API requests returned correct HTTP status codes, accurate weather data, and properly structured JSON responses.<br>
 
-### Negative & Edge Case Testing<br>
+### 🔕 Negative & Edge Case Testing<br>
 Intentionally submitted invalid, malformed, and unauthorized requests to validate that the API handles failures gracefully and returns appropriate error responses.<br>
 
-### Response Validation<br>
+### 📢 Response Validation<br>
 Each API response was checked against expected values for:
 
 📌 HTTP status codes (e.g., 200 OK, 401 Unauthorized, 404 Not Found)<br>
