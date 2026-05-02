@@ -35,6 +35,18 @@ Each API response was checked against expected values for:
 📌 HTTP status codes (e.g., 200 OK, 401 Unauthorized, 404 Not Found)<br>
 📌 JSON response structure and required fields<br>
 📌 Data accuracy and format compliance<br>
+<hr>
+
+### 📡 API Endpoint Tested
+
+GET https://api.openweathermap.org/data/2.5/weather<br>
+
+#### Query Parameters
+| Parameter | Description |Example |
+| :---:     | :---:  |  :---: |
+| q  |  City Name | Atlanta
+
+
 
 <hr>
 📝 Test cases provide clear guidance and direction on what to verify and how to conduct the checks. Below is a snippet from the attached Excel spreadsheet.
