@@ -17,7 +17,7 @@ The API was confirmed to be robust, well-designed, and compliant with expected s
 | Tools | Purpose |
 | :---: | :---: |
 | [ Postman](https://postman.com) | API client for building, executing, and documenting test calls |
-|OpenWeatherMap API | Third-party REST API providing real-time global weather data |
+|[Accuweather API](https://developer.accuweather.com/core-weather/location-key-currentconditions) | Third-party REST API providing real-time global weather data |
 | Microsoft Excel |Structured test case management and results tracking |
 | JSON | API response format validated across <br>
 <hr>
