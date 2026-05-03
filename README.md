@@ -81,11 +81,6 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 | ❌ Empty query string | Validates graceful failure response|<br>
 <hr>
 
-🚀 Postman API documentation link for the weather test calls. <br>
-API DOCUMENTATION:
-<br>
-https://documenter.getpostman.com/view/31215339/2sAYJ9AJ9v
-<hr>
 
 #### 📦 Sample Successful Response (200 OK)<br>
 
@@ -106,7 +101,13 @@ https://documenter.getpostman.com/view/31215339/2sAYJ9AJ9v
   "cod": 200<br>
 }<br>
 <hr>
-
+```
+---
+🚀 Postman API documentation link for the weather test calls. <br>
+API DOCUMENTATION:
+<br>
+https://documenter.getpostman.com/view/31215339/2sAYJ9AJ9v
+<hr>
 
 
 
