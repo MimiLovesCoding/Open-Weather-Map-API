@@ -24,10 +24,18 @@ The API was confirmed to be robust, well-designed, and compliant with expected s
 
 ##  🧪 Testing Approach
 ### Functional Testing (Positive Cases)<br>
-Verified that valid API requests returned correct HTTP status codes, accurate weather data, and properly structured JSON responses.<br>
+Validated correct API behavior for valid requests, including:<br>
+📌 HTTP status codes (200 OK)<br>
+📌 Accurate weather data retrieval<br>
+📌 Proper JSON structure<br>
 
 ### 🔕 Negative & Edge Case Testing<br>
-Intentionally submitted invalid, malformed, and unauthorized requests to validate that the API handles failures gracefully and returns appropriate error responses.<br>
+Tested how the API handles invalid or unexpected input:
+
+📌 Invalid or missing API key → 401 Unauthorized
+📌 Invalid location → 404 Not Found
+📌 Malformed parameters → 400 Bad Request
+📌 Empty requests → graceful failure handling<br>
 
 ### 📢 Response Validation<br>
 Each API response was checked against expected values for:
