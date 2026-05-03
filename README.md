@@ -47,12 +47,20 @@ GET https://api.openweathermap.org/data/2.5/weather<br>
 | q  |  City Name | Atlanta |
 | id | City Id  | 45356677|
 | units |   Temperature unit  | imperial (°F), metric (°C) | 
-| appid | API key (required) | {SECURE_API_KEY}
-
-
+| appid | API key (required) | {SECURE_API_KEY} |<br>
 
 <hr>
-📝 Test cases provide clear guidance and direction on what to verify and how to conduct the checks. Below is a snippet from the attached Excel spreadsheet.
+
+#### 📊 Test Case Documentation
+Test cases were written and tracked in an Excel spreadsheet covering:<br>
+<br>
+📁 Test Description — What is being validated<br>
+📁 Expected Result — Anticipated HTTP status code and response behavior<br>
+📁 Test Details / How to Test - Parameters and Methods to obtain data<br>
+✔️Pass / ❌Fail Status — Documented outcome for each test<br>
+
+📝 Test cases provide clear guidance and direction on what to verify and how to conduct the checks.<br>
+   Below is an example of a test case written for tracking results:
 
 ![image](https://github.com/user-attachments/assets/a35de218-c312-46b6-9b30-51534ad2307f)
 
