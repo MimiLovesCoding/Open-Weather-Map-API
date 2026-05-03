@@ -2,14 +2,14 @@
 
 <hr>
 
-A full-cycle API validation project using Postman and the OpenWeatherMap API, covering functional testing, negative/edge case testing, response validation, and structured test case documentation.
+A full-cycle API validation project using Postman and the AccuWeather API, covering functional testing, negative/edge case testing, response validation, and structured test case documentation.
 
 🔐 API keys, request headers, and body parameters have been omitted from all documentation for security purposes.
 
 <hr>
 
 ##  📋 Project Overview <br>
-This project validates the reliability, accuracy, and robustness of the OpenWeatherMap API endpoints through a structured test suite. Testing included both positive scenarios (verifying expected behavior) and negative/stress scenarios (intentionally attempting to break the API to identify vulnerabilities and failure handling).
+This project validates the reliability, accuracy, and robustness of the AccuWeather API endpoints through a structured test suite. Testing included both positive scenarios (verifying expected behavior) and negative/stress scenarios (intentionally attempting to break the API to identify vulnerabilities and failure handling).
 The API was confirmed to be robust, well-designed, and compliant with expected standards across all tested scenarios.<br>
 <hr>
 
@@ -82,6 +82,9 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 <hr>
 
 #### 📦 Sample Successful Response (200 OK)<br>
+
+json
+
 {<br>
   "coord": { "lon": -84.388, "lat": 33.749 },<br>
   "weather": [{ "main": "Clouds", "description": "few clouds" }],<br>
@@ -96,6 +99,7 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
   "name": "Atlanta",<br>
   "cod": 200<br>
 }<br>
+
 <hr>
 🚀 Postman API documentation link for the weather test calls. <br>
 API DOCUMENTATION:
