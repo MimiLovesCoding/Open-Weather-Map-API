@@ -15,7 +15,7 @@ The API was confirmed to be robust, well-designed, and compliant with expected s
 
 ## 🛠 Tools & Technologies <br>
 | Tools | Purpose |
-| :---: | :---: |
+| :--- | :--- |
 | [ Postman](https://postman.com) | API client for building, executing, and documenting test calls |
 |[Accuweather API](https://developer.accuweather.com/core-weather/location-key-currentconditions) | Third-party REST API providing real-time global weather data |
 | Microsoft Excel |Structured test case management and results tracking |
@@ -43,7 +43,7 @@ GET https://api.openweathermap.org/data/2.5/weather<br>
 
 #### Query Parameters
 | Parameter | Description | Data |
-| :---:     | :---:  |  :---: |
+| :---     | :---  |  :--- |
 | q  |  City Name | Atlanta |
 | id | City Id  | 4180439|
 | units |   Temperature unit  | imperial (°F), metric (°C) | 
