@@ -86,21 +86,20 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 
 ```json
 
-{<br>
-  "coord": { "lon": -84.388, "lat": 33.749 },<br>
-  "weather": [{ "main": "Clouds", "description": "few clouds" }],<br>
-  "main": {<br>
-    "temp": 41.2,<br>
-    "feels_like": 35.6,<br>
-    "temp_min": 32.4,<br>
-    "temp_max": 47.0,<br>
-    "humidity": 65<br>
-  },<br>
-  "wind": { "speed": 8.1, "deg": 80 },<br>
-  "name": "Atlanta",<br>
-  "cod": 200<br>
-}<br>
-<hr>
+{
+  "coord": { "lon": -84.388, "lat": 33.749 },
+  "weather": [{ "main": "Clouds", "description": "few clouds" }],
+  "main": {
+    "temp": 41.2,
+    "feels_like": 35.6,
+    "temp_min": 32.4,
+    "temp_max": 47.0,
+    "humidity": 65
+  },
+  "wind": { "speed": 8.1, "deg": 80 },
+  "name": "Atlanta",
+  "cod": 200
+}
 ```
 ---
 🚀 Postman API documentation link for the weather test calls. <br>
