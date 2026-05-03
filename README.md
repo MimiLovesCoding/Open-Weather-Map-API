@@ -78,12 +78,12 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 #### 🔍 Test Scenarios Covered
 | Scenario Type | Description | 
 | :---     | :---  | 
-| ✅ Valid city name| requestReturns 200 OK with full weather data|<br>
-| ✅ Valid city ID | requestReturns 200 OK with location-matched data|<br>
-| ✅ Imperial units | requestTemperature returned in Fahrenheit|<br>
-| ✅ Metric units | requestTemperature returned in Celsius|
-| ❌ Invalid API | keyReturns 401 Unauthorized|<br>
-| ❌ Missing API | keyReturns 401 Unauthorized|<br>
+| ✅ Valid city name| Request Returns 200 OK with full weather data|<br>
+| ✅ Valid city ID | Request Returns 200 OK with location-matched data|<br>
+| ✅ Imperial units | Request Temperature returned in Fahrenheit|<br>
+| ✅ Metric units | Request Temperature returned in Celsius|
+| ❌ Invalid API | Returns 401 Unauthorized|<br>
+| ❌ Missing API | Returns 401 Unauthorized|<br>
 | ❌ Invalid city name | Returns 404 Not Found|<br>
 | ❌ Malformed request | Returns 400 Bad Request|<br>
 | ❌ Empty query string | Validates graceful failure response|<br>
