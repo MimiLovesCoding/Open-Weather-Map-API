@@ -116,6 +116,14 @@ API DOCUMENTATION:
 https://documenter.getpostman.com/view/31215339/2sAYJ9AJ9v
 <hr>
 
+#### 📚 Key Takeaways
+🎯 Developed a structured approach to API testing, covering both functional and negative scenarios<br>
+🎯 Strengthened ability to validate API responses using HTTP status codes, JSON structure, and data integrity checks<br>
+🎯 Gained hands-on experience testing authentication and error handling, including unauthorized and malformed requests<br>
+🎯 Improved understanding of how APIs handle edge cases and failure conditions<br>
+🎯 Applied security-focused thinking by validating input handling and identifying potential risks in API behavior<br>
+🎯 Reinforced the importance of clear test case design and documentation for repeatable and consistent validation<br>
+
 
 
 
