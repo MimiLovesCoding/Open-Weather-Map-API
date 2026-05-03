@@ -44,7 +44,7 @@ GET http://dataservice.accuweather.com/currentconditions/v1/{locationKey}<br>
 #### Query Parameters
 | Parameter | Description | Data |
 | :---     | :---  |  :--- |
-| locationKey | AccuWeather location ID for the city | 336599 (Atlanta) |
+| locationKey | AccuWeather location ID for the city | 4180439 (Atlanta) |
 | details| Returns full weather details  | true |
 | units |   Temperature unit  | imperial (°F), metric (°C) | 
 | appid | API key (required) | {SECURE_API_KEY} |<br>
