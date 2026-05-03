@@ -30,22 +30,22 @@ Validated correct API behavior for valid requests, including:<br>
 📌 Proper JSON structure<br>
 
 ### 🔕 Negative & Edge Case Testing<br>
-Tested how the API handles invalid or unexpected input:
+Tested how the API handles invalid or unexpected input:<br>
 
-📌 Invalid or missing API key → 401 Unauthorized
-📌 Invalid location → 404 Not Found
-📌 Malformed parameters → 400 Bad Request
+📌 Invalid or missing API key → 401 Unauthorized<br>
+📌 Invalid location → 404 Not Found<br>
+📌 Malformed parameters → 400 Bad Request<br>
 📌 Empty requests → graceful failure handling<br>
 
 ### 📢 Response Validation<br>
-Each API response was checked against expected values for:
+Each API response was checked against expected values for:<br>
 
 📌 HTTP status codes (e.g., 200 OK, 401 Unauthorized, 404 Not Found)<br>
 📌 JSON response structure and required fields<br>
 📌 Data accuracy and format compliance<br>
 <hr>
 
-### 📡 API Endpoint Tested
+### 📡 API Endpoint Tested<br>
 
 GET http://dataservice.accuweather.com/currentconditions/v1/{locationKey}<br>
 
@@ -59,7 +59,7 @@ GET http://dataservice.accuweather.com/currentconditions/v1/{locationKey}<br>
 
 <hr>
 
-#### 📊 Test Case Documentation
+#### 📊 Test Case Documentation<br>
 Test cases were written and tracked in an Excel spreadsheet covering:<br>
 <br>
 📁 Test Description — What is being validated<br>
@@ -68,7 +68,7 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 ✔️Pass / ❌Fail Status — Documented outcome for each test<br>
 
 📝 Test cases provide clear guidance and direction on what to verify and how to conduct the checks.<br>
-   Below is an example of a test case written for tracking results:
+   Below is an example of a test case written for tracking results:<br>
 
 ![image](https://github.com/user-attachments/assets/a35de218-c312-46b6-9b30-51534ad2307f)
 
