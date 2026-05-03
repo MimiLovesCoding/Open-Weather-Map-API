@@ -75,6 +75,15 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 
 <hr>
 
+### 🔐 Security Considerations<br>
+
+🔑 API key protection (not exposed in code or documentation)<br>
+✅ Validation of unauthorized access (401 responses)<br>
+🔄 Input validation testing for malformed requests<br>
+💡 Awareness of potential injection risks in query parameters<br>
+<br>
+<hr>
+
 ### 🔍 Test Scenarios Covered
 | Scenario Type | Description | 
 | :---     | :---  | 
