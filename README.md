@@ -19,7 +19,7 @@ The API was confirmed to be robust, well-designed, and compliant with expected s
 | [ Postman](https://postman.com) | API client for building, executing, and documenting test calls |
 |[Accuweather API](https://developer.accuweather.com/core-weather/location-key-currentconditions) | Third-party REST API providing real-time global weather data |
 | Microsoft Excel |Structured test case management and results tracking |
-| JSON | API response format validated across <br>
+| JSON | Response format validated across all test cases | <br>
 <hr>
 
 ##  🧪 Testing Approach
