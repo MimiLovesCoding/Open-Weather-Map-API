@@ -1,4 +1,4 @@
-# ⛅ 🌈 Accu-Weather-API—Comprehensive API Test Suite☀️☔
+# ⛅ 🌈 AccuWeather-API—Comprehensive API Test Suite☀️☔
 
 <hr>
 
