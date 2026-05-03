@@ -67,6 +67,10 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 
 <hr>
 
+#### 🔍 Test Scenarios Covered
+| Parameter | Description |
+
+
 🚀 Postman API documentation link for the weather test calls. <br>
 API DOCUMENTATION:
 <br>
