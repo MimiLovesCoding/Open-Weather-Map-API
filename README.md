@@ -85,7 +85,7 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 | ❌ Invalid API | keyReturns 401 Unauthorized|<br>
 | ❌ Missing API | keyReturns 401 Unauthorized|<br>
 | ❌ Invalid city name | Returns 404 Not Found|<br>
-| ❌ Malformed request | parametersValidates error handling behavior|<br>
+| ❌ Malformed request | Returns 400 Bad Request|<br>
 | ❌ Empty query string | Validates graceful failure response|<br>
 <hr>
 
