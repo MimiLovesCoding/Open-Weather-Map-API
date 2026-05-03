@@ -82,7 +82,7 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 <hr>
 
 #### 📦 Sample Successful Response (200 OK)<br>
-{
+{<br>
   "coord": { "lon": -84.388, "lat": 33.749 },<br>
   "weather": [{ "main": "Clouds", "description": "few clouds" }],<br>
   "main": {<br>
