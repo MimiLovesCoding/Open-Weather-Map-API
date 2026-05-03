@@ -45,11 +45,11 @@ Each API response was checked against expected values for:<br>
 📌 Data accuracy and format compliance<br>
 <hr>
 
-### 📡 API Endpoint Tested<br>
+## 📡 API Endpoint Tested<br>
 
 GET http://dataservice.accuweather.com/currentconditions/v1/{locationKey}<br>
 
-#### Query Parameters
+### Query Parameters
 | Parameter | Description | Data |
 | :---     | :---  |  :--- |
 | locationKey | AccuWeather location ID for the city | 4180439 (Atlanta) |
@@ -59,7 +59,7 @@ GET http://dataservice.accuweather.com/currentconditions/v1/{locationKey}<br>
 
 <hr>
 
-#### 📊 Test Case Documentation<br>
+### 📊 Test Case Documentation<br>
 Test cases were written and tracked in an Excel spreadsheet covering:<br>
 <br>
 📁 Test Description — What is being validated<br>
@@ -75,7 +75,7 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 
 <hr>
 
-#### 🔍 Test Scenarios Covered
+### 🔍 Test Scenarios Covered
 | Scenario Type | Description | 
 | :---     | :---  | 
 | ✅ Valid city name| Request Returns 200 OK with full weather data|<br>
@@ -90,7 +90,7 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 <hr>
 
 
-#### 📦 Sample Successful Response (200 OK)<br>
+### 📦 Sample Successful Response (200 OK)<br>
 
 ```json
 
@@ -116,7 +116,7 @@ API DOCUMENTATION:
 https://documenter.getpostman.com/view/31215339/2sAYJ9AJ9v
 <hr>
 
-#### 📚 Key Takeaways
+### 📚 Key Takeaways
 🎯 Developed a structured approach to API testing, covering both functional and negative scenarios<br>
 🎯 Strengthened ability to validate API responses using HTTP status codes, JSON structure, and data integrity checks<br>
 🎯 Gained hands-on experience testing authentication and error handling, including unauthorized and malformed requests<br>
