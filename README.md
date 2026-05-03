@@ -79,8 +79,24 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 |❌ Invalid city name| Returns 404 Not Found|<br>
 |❌ Malformed request | parametersValidates error handling behavior|<br>
 |❌ Empty query string| Validates graceful failure response|<br>
+<hr>
 
-
+#### 📦 Sample Successful Response (200 OK)<br>
+{
+  "coord": { "lon": -84.388, "lat": 33.749 },<br>
+  "weather": [{ "main": "Clouds", "description": "few clouds" }],<br>
+  "main": {<br>
+    "temp": 41.2,<br>
+    "feels_like": 35.6,<br>
+    "temp_min": 32.4,<br>
+    "temp_max": 47.0,<br>
+    "humidity": 65<br>
+  },<br>
+  "wind": { "speed": 8.1, "deg": 80 },<br>
+  "name": "Atlanta",<br>
+  "cod": 200<br>
+}<br>
+<hr>
 🚀 Postman API documentation link for the weather test calls. <br>
 API DOCUMENTATION:
 <br>
