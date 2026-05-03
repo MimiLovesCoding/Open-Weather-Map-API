@@ -68,22 +68,28 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 <hr>
 
 #### 🔍 Test Scenarios Covered
-| Scenario Type | Description| 
+| Scenario Type | Description | 
 | :---     | :---  | 
-|✅ Valid city name| requestReturns 200 OK with full weather data|<br>
-|✅ Valid city ID | requestReturns 200 OK with location-matched data|<br>
-|✅ Imperial units | requestTemperature returned in Fahrenheit|<br>
-|✅ Metric units| requestTemperature returned in Celsius|
-|❌ Invalid API | keyReturns 401 Unauthorized|<br>
-|❌ Missing API |keyReturns 401 Unauthorized|<br>
-|❌ Invalid city name| Returns 404 Not Found|<br>
-|❌ Malformed request | parametersValidates error handling behavior|<br>
-|❌ Empty query string| Validates graceful failure response|<br>
+| ✅ Valid city name| requestReturns 200 OK with full weather data|<br>
+| ✅ Valid city ID | requestReturns 200 OK with location-matched data|<br>
+| ✅ Imperial units | requestTemperature returned in Fahrenheit|<br>
+| ✅ Metric units | requestTemperature returned in Celsius|
+| ❌ Invalid API | keyReturns 401 Unauthorized|<br>
+| ❌ Missing API | keyReturns 401 Unauthorized|<br>
+| ❌ Invalid city name | Returns 404 Not Found|<br>
+| ❌ Malformed request | parametersValidates error handling behavior|<br>
+| ❌ Empty query string | Validates graceful failure response|<br>
+<hr>
+
+🚀 Postman API documentation link for the weather test calls. <br>
+API DOCUMENTATION:
+<br>
+https://documenter.getpostman.com/view/31215339/2sAYJ9AJ9v
 <hr>
 
 #### 📦 Sample Successful Response (200 OK)<br>
 
-json
+```json
 
 {<br>
   "coord": { "lon": -84.388, "lat": 33.749 },<br>
@@ -99,10 +105,8 @@ json
   "name": "Atlanta",<br>
   "cod": 200<br>
 }<br>
-
 <hr>
-🚀 Postman API documentation link for the weather test calls. <br>
-API DOCUMENTATION:
-<br>
-https://documenter.getpostman.com/view/31215339/2sAYJ9AJ9v
+
+
+
 
