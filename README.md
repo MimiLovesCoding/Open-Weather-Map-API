@@ -68,7 +68,17 @@ Test cases were written and tracked in an Excel spreadsheet covering:<br>
 <hr>
 
 #### 🔍 Test Scenarios Covered
-| Parameter | Description |
+| Scenario Type | Description| 
+| :---     | :---  | 
+|✅ Valid city name| requestReturns 200 OK with full weather data|<br>
+|✅ Valid city ID | requestReturns 200 OK with location-matched data|<br>
+|✅ Imperial units | requestTemperature returned in Fahrenheit|<br>
+|✅ Metric units| requestTemperature returned in Celsius|
+|❌ Invalid API | keyReturns 401 Unauthorized|<br>
+|❌ Missing API |keyReturns 401 Unauthorized|<br>
+|❌ Invalid city name| Returns 404 Not Found|<br>
+|❌ Malformed request | parametersValidates error handling behavior|<br>
+|❌ Empty query string| Validates graceful failure response|<br>
 
 
 🚀 Postman API documentation link for the weather test calls. <br>
