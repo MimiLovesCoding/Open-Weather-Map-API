@@ -39,13 +39,13 @@ Each API response was checked against expected values for:
 
 ### 📡 API Endpoint Tested
 
-GET https://api.openweathermap.org/data/2.5/weather<br>
+GET http://dataservice.accuweather.com/currentconditions/v1/{locationKey}<br>
 
 #### Query Parameters
 | Parameter | Description | Data |
 | :---     | :---  |  :--- |
-| q  |  City Name | Atlanta |
-| id | City Id  | 4180439|
+| locationKey | AccuWeather location ID for the city | 336599 (Atlanta) |
+| details| Returns full weather details  | true |
 | units |   Temperature unit  | imperial (°F), metric (°C) | 
 | appid | API key (required) | {SECURE_API_KEY} |<br>
 
